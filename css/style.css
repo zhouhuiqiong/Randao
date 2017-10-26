@@ -220,12 +220,14 @@ body,html{
     margin: 80px 0px 50px 0px;
 }
 .origin-ph{
-    /*width: 1000px;*/
     height: 300px;
     float: none;
     background: url("../images/journey.png") no-repeat center;
     background-size: contain;
     margin: 0px auto 90px;
+}
+.origin-ph-en{
+
 }
 .chat-box .title1{
     margin-top: 70px;
@@ -401,12 +403,15 @@ body,html{
 .swiper-content{
     position: absolute;
     left: 40%;
-    top: 60px;
+    right: 10%;
+    top: 120px;
     color: #fff;
-
+}
+.swiper-content-en{
+    top: 100px
 }
 .swiper-content .swiper-sub-t{
-    margin-top: 70px;
+    margin-top: 50px;
     font-size: 26px;
 }
 .swiper-content p{
@@ -415,7 +420,6 @@ body,html{
     margin-top: 22px;
     line-height: 22px;
     font-weight: 300;
-    max-width: 680px;
 }
 .swiper-content p:first-of-type{
     margin-top: 45px;
@@ -472,7 +476,7 @@ body,html{
   width: 16px;
   height: 16px;
   display: inline-block; 
-  background-size: contain;
+  background-size: cover;
   margin-right: 5px;
   vertical-align: -3px; 
   background-repeat: no-repeat;
@@ -488,7 +492,7 @@ body,html{
     right: 0;
     top: 100%;
     position: absolute;
-    width: 110px;
+    width: 120px;
     display: none;
     z-index: 4;
 }/*
