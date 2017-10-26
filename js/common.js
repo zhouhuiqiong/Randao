@@ -96,11 +96,11 @@
           },
           m: {
             num: 10,
-            date: 9
+            date: 10
           },
           d: {
-            num: 20,
-            date: 20
+            num: 15,
+            date: 31
           },
           time: 80
       }
@@ -108,9 +108,10 @@
       m.$month = m.$roll.find('.month'),
       m.$date = m.$roll.find('.date');
       var cartoon = function (type, obj) {
-        var v = (opts[type].date / opts[type].num).toFixed();
+        var v = (opts[type].date / opts[type].num).toFixed(),
             nYear = opts[type].date - v * opts[type].num,
             y = 0;
+
           obj.text(nYear)
           var yAn = setInterval(function(){
               y++;
