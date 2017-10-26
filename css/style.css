@@ -335,18 +335,27 @@ body,html{
     margin:0px auto;
     float: none;
 }
-.p-icon1{background: url("../images/1.png") no-repeat;}
-.p-icon2{background: url("../images/2.png") no-repeat;}
-.p-icon3{background: url("../images/3.png") no-repeat;}
-.p-icon4{background: url("../images/4.png") no-repeat;}
-.p-icon5{background: url("../images/5.png") no-repeat;}
+.partner-wrap li {
+    height: 62px;
+
+}
+.p-icon1{background: url("../images/1.png") no-repeat; height:61px;}
+.p-icon2{background: url("../images/2.png") no-repeat; height:63px;}
+.p-icon3{background: url("../images/3.png") no-repeat; height:62px;}
+.p-icon4{background: url("../images/4.png") no-repeat; height:50px;}
+.p-icon5{background: url("../images/5.png") no-repeat; height:51px;}
+.p-icon1:hover{background: url("../images/1h.png") no-repeat;}
+.p-icon2:hover{background: url("../images/2h.png") no-repeat;}
+.p-icon3:hover{background: url("../images/3h.png") no-repeat;}
+.p-icon4:hover{background: url("../images/4h.png") no-repeat;}
+.p-icon5:hover{background: url("../images/5h.png") no-repeat;}
+
 .p-icon{
     width: 62px;
-    height: 62px;
     margin: 0px auto;
     display: block;
-    background-size: contain;
     background-position: center;
+    transition: 1s all ease;
 }
 .cur-country{
     margin: 13px 0px 0px 30px;
