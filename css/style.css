@@ -6,7 +6,7 @@ body,html{
     font-family: PingFangSC-Light,BlinkMacSystemFont,Helvetica Neue,Helvetica,Roboto,Arial,PingFang SC,Hiragino Sans GB,Microsoft Yahei,Microsoft Jhenghei,sans-serif;
 }
 .nav>li>a{
-    padding: 10px 30px
+    padding: 10px 25px
 }
 .header-wrap {
     height: 504px;
@@ -229,6 +229,9 @@ body,html{
 .origin-ph-en{
 
 }
+.chat-box{
+    padding-bottom: 90px;
+}
 .chat-box .title1{
     margin-top: 70px;
 }
@@ -268,12 +271,17 @@ body,html{
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    background:#fff;
     box-shadow: 0px 0px 3px #eae7e7;
     position: absolute;
     top: -10px;
     left: 0px;
-
+}
+.foundation {
+    background-color:#fff;
+    background-image: url("../images/foundation.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
 .chat-infs{
     background:#fff;
@@ -612,5 +620,10 @@ body,html{
     .advantage-infs h3{
         font-size: 26px;
     }
+
 }
-/**/
+@media (max-width: 414px){
+    .random-state-en{
+        margin-bottom: 30px;
+    }
+}
